@@ -38,7 +38,7 @@ def convert(message: telebot.types.Message):
     except Exception as e:
         bot.reply_to(message, f"Не могу обработать команду.\n{e}")
     else:
-        text = f"Итак, переводим {quote} в {base}.\n{amount} {quote} = {total_base}"
+        text = f"Итак, переводим {quote} в {base}.\n{amount} {quote} = {total_base} {base}"
         bot.send_message(message.chat.id, text)
 
 
