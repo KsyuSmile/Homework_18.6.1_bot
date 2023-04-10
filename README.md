@@ -1,5 +1,4 @@
-# Homework_18.6.1_bot<br>
-Адрес бота: https://t.me/test_ksuy_bot
+# Homework_18.6.1_bot
 <br>
 
 Задание:<br>
